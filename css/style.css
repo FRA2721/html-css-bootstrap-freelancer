@@ -137,5 +137,29 @@ header ul li {
     background-color: var(--ms_color-white);
 }
 
+/* contact-me-formatting-section */
+#contact .star::before {
+    background-color: var(--ms_color-dark-blue);
+}
+
+/* contact-me-formatting-section */
+#contact .star::after {
+    background-color: var(--ms_color-dark-blue);
+}
+
+/* contact-me-formatting-section */
+#contact .form-control:focus {
+    box-shadow: none;
+}
+
+/* contact-me-border-formatting-section */
+#contact .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+
 
 /* end-code */
