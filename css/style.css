@@ -114,7 +114,7 @@ header ul li {
 /* img-portfolio-section */
 #portfolio img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* portfolio-section */
@@ -126,5 +126,16 @@ header ul li {
 #portfolio .star::after {
     background-color: var(--ms_color-dark-blue);
 }
+
+/* about-formatting-section */
+#about .star::before {
+    background-color: var(--ms_color-white);
+}
+
+/* about-formatting-section */
+#about .star::after {
+    background-color: var(--ms_color-white);
+}
+
 
 /* end-code */
