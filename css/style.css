@@ -1,0 +1,87 @@
+/* <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- 
+programmer: Francesco Cimino
+program: boostrap-freelancer
+ -->
+
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- start-code --> */
+
+/* img-formatting */
+img {
+    max-width: 100%;
+}
+
+/* root-colors */
+:root {
+    --ms_color-dark-blue: #2c3e50;
+    --ms_color-light-blue: #1c83c1;
+    --ms_color-green: #1abc9c;
+    --ms_color-white: #ffffff;
+    --ms_color-black: #000000;
+}
+
+/* background-color */
+.ms_bg-green {
+    background-color: var(--ms_color-green);
+}
+
+/* white */
+.ms_color-white {
+    color: var(--ms_color-white);
+}
+
+/* dark-blue */
+.ms_color-dark-blue {
+    color: var(--ms_color-dark-blue)
+}
+
+/* green */
+.ms_color-green {
+    color: var(--ms_color-green);
+}
+
+/* border-formatting */
+.ms_bd-white {
+    border: 1px solid var(--ms_color-white);
+    color: var(--ms_color-white);
+}
+
+/* header-code-formatting-section */
+header {
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    background-color: var(--ms_color-dark-blue);
+    color: var(--ms_color-white); 
+}
+
+/* a-headercode-formatting-section */
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* list-formatting-section */
+header ul li {
+    margin-left: 10px;
+}
+
+/* jumbotron-img-formatting */
+#jumbotron img {
+    max-width: 250px;
+}
+
+/* main-code-section-formatting */
+.ms_section {
+    padding: 2.5rem 0 1.5rem;
+}
+
+/* jumbotron-color */
+#jumbotron {
+    color: var(--ms_color-white);
+}
+
+/* end-code */
