@@ -160,6 +160,28 @@ header ul li {
     border-radius: 0;
 }
 
+/* footer-code-formatting-section */
+.ms_footer {
+    padding-top: 3rem;
+    background-color: #3a546d;
+    color: var(--ms_color-white);
+}
 
+/* icons-formatting-section */
+.ms_icons i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+/* wrapper-section */
+.ms_wrapper {
+    background-color: #2c3e50;
+    height: 85px;
+    line-height: 85px;
+}
 
 /* end-code */
